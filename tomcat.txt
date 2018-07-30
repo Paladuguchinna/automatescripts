@@ -16,7 +16,7 @@ unzip apache-tomcat-8.5.32-windows-x64.zip
 mv apache-tomcat-8.5.32 /opt/tomcat
 chmod -R 755 /opt/tomcat
 cd /opt/tomcat/webapps
-rm -rf*
+rm -rf *
 cd /tmp
 wget https://updates.jenkins-ci.org/download/war/2.133/jenkins.war
 cp jenkins.war /opt/tomcat/webapps
