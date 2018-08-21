@@ -16,7 +16,6 @@ cd /opt/
 wget http://www-eu.apache.org/dist/tomcat/tomcat-8/v8.5.32/bin/apache-tomcat-8.5.32-windows-x64.zip
 unzip apache-tomcat-8.5.32-windows-x64.zip
 mv apache-tomcat-8.5.32 tomcat
-cd /tomcat/bin
-chmod 755 *.sh
-./startup.sh
+chmod 755 /opt/tomcat/bin/*.sh
+cd /opt/tomcat/bin/startup.sh
 
